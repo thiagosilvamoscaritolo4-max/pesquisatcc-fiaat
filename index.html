@@ -630,7 +630,8 @@ body{font-family:'Barlow',sans-serif;min-height:100vh;overflow-x:hidden}
 <script>
 var tipo = null;
 var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbx5qbAG3DupFc2o_p45GZHIqnsaffYjPJRbnpYeQjPfnKNMknLH_udIwZ9-MLjXxiP2fg/exec';
- function toggleOutro(sel, outId) {
+
+function toggleOutro(sel, outId) {
   var el = document.getElementById(outId);
   if (el) el.style.display = (sel.value === 'Outro' || sel.value === 'Outros') ? 'block' : 'none';
 }
