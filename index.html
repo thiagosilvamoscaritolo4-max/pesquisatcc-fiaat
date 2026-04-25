@@ -629,9 +629,8 @@ body{font-family:'Barlow',sans-serif;min-height:100vh;overflow-x:hidden}
 
 <script>
 var tipo = null;
-var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbzrv9kI2H1rdin_gvTW8oTm0G9Ui23aMslSRs05ncIZc9FjhujSiQ8RBo3_g2q0Eqoj_g/exec';
-
-function toggleOutro(sel, outId) {
+var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbykwWndDqYiMljlgbBViKNyXjYhgAPBeclyxDQb6Vhx8LjyW9bQMjsi19sMabSWXOZFJQ/exec';
+ function toggleOutro(sel, outId) {
   var el = document.getElementById(outId);
   if (el) el.style.display = (sel.value === 'Outro' || sel.value === 'Outros') ? 'block' : 'none';
 }
